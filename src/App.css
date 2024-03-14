@@ -1,17 +1,14 @@
-/* App.css */
-
-/* General styles */
 .container {
   position: relative;
-  width: 100%; /* Adjust according to your layout */
+  width: 100%;
   max-width: 650px;
-  margin: 0 auto; /* Center horizontally */
+  margin: 0 auto;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid yellowgreen;
-  background-color: #f8f9fa; /* Light background */
+  background-color: #f8f9fa;
 }
 
 .counter {
@@ -23,27 +20,23 @@
   align-items: center;
   justify-content: center;
   border: 1px solid lightcoral;
-  background: linear-gradient(
-    to right,
-    #ff0000,
-    #ffffff
-  ); /* Gradient background */
+  background: linear-gradient(to right, #ff0000, #ffffff);
 }
 
 .main_container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adjust gap between elements */
+  gap: 20px;
 }
 
 .container_form {
   max-width: 400px;
   width: 100%;
-  margin: 20px; /* Add space around the form */
+  margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #ffffff; /* White background */
+  background-color: #ffffff;
 }
 
 /* Form styles */
@@ -77,8 +70,7 @@
   cursor: pointer;
 }
 
-/* Unsaved changes */
 .unsavedChanges {
   color: red;
-  margin-top: 10px; /* Add space between form and message */
+  margin-top: 10px;
 }
