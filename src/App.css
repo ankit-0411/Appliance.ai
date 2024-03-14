@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* General styles */
+.container {
+  position: relative;
+  width: 100%; /* Adjust according to your layout */
+  max-width: 650px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid yellowgreen;
+  background-color: #f8f9fa; /* Light background */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counter {
+  position: relative;
+  height: 250px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid lightcoral;
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #ffffff
+  ); /* Gradient background */
 }
 
-.App-link {
-  color: #61dafb;
+.main_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust gap between elements */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container_form {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px; /* Add space around the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Unsaved changes */
+.unsavedChanges {
+  color: red;
+  margin-top: 10px; /* Add space between form and message */
 }
